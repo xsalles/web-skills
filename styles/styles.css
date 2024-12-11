@@ -1,0 +1,226 @@
+@import url(./global.css);
+
+body{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: var(--bg-main);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 56px 0;
+    width: 100%;
+    height: 100%;      
+    gap: 28px; 
+}
+
+.containerOptions{
+    width: 177px;
+    height: 868px;
+    background-color: var(--gray-strong);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.containerOptions img {
+    margin-top: 40px;
+}
+
+.containerOptions button {
+    background: transparent;
+    border: 1px solid var(--green-medium);
+    width: 145px;
+    height: 57px;
+    border-radius: 8px;
+    color: var(--green-medium);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.containerText{
+   height: 89px;
+   width: 145px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.containerText img {
+    width: 32px;
+    height: 32px;
+}
+.containerText a {
+    color: var(--white);
+}
+
+.containerForm{
+    width: 996px;
+    height: 677px;
+    background-color: var(--gray-strong);
+    display: flex;
+    padding: 32px;
+    gap: 8px;
+} 
+
+.containerForm .upload {
+    width: 486px;
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;  
+    color: var(--gray-medium);
+}
+
+.upload .showImage{
+    width: 486px;
+    height: 368px;
+    border-radius: 8px;
+    background-color: var(--gray-medium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showImage img {
+    width: 454px;
+    height: 320px;
+}
+
+.upload button {
+    background: transparent;
+    border: 1px solid var(--gray-medium);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 486px;
+    height: 51px;
+    color: var(--gray-medium);
+    gap: 8px;
+    font-size: 18px;
+}
+
+.nameFile {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  width: 159px;
+  height: 23px;
+  gap: 8px;
+
+}
+
+.nameFile p {
+    font-size: 15px;
+    width: 136px;
+    height: 23px;
+}
+
+.nameFile img {
+    width: 15px;
+    height: 23px;
+}
+
+.containerForm {
+    display: flex;
+    gap: 24px;
+}
+
+.containerForm form h5 {
+  width: 422px;
+  height: 39px;
+  font-size: 26px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.containerForm fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.containerForm form {
+    gap: 24px;
+    width: 422px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerForm form fieldset .inputSmall {
+    border-radius: 4px;
+    background-color: var(--gray-medium);
+    padding: 16px 8px;
+    width: 422px;
+    height: 39px;
+}
+
+.containerForm form fieldset .inputBigger {
+    border-radius: 4px;
+    background-color: var(--gray-medium);
+    padding: 16px 8px;
+    width: 422px;
+    height: 161px;
+}
+
+.containerForm form fieldset label {
+    font-size: 18px;
+    color: var(--white);
+}
+
+.containerButtons {
+  width: 422px;
+  height: 51px;
+  display: flex;
+  gap: 24px;
+}
+
+.containerButtons .trash {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--green-medium);
+    font-weight: 600;
+    font-size: 18px;
+    width: 199px;
+    height: 51px;
+    background: transparent;
+    border: 1px solid var(--green-medium);
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.containerButtons .post {
+    width: 199px;
+    height: 51px;
+    font-weight: 600;
+    font-size: 18px;
+    background: var(--green-medium);
+    border: 1px solid var(--green-medium);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--gren-strong);
+}
+
+.containerButtons .post img{
+    background-color: var(--gren-strong);  
+}
+
+
+
+
