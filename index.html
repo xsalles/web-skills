@@ -11,34 +11,35 @@
 
 <body>
     <main>
-        <section class="containerOptions">
+        <aside class="containerOptions">
             <img src="./images/logo.svg" alt="Logo da code connect">
             <button>Publicar</button>
-            <div class="containerText">
+            <li class="containerText">
                 <img src="./images/feed.svg" alt="">
                 <a href="#">Feed</a>
-            </div>
-            <div class="containerText">
+            </li>
+            <li class="containerText">
                 <img src="./images/account_circle.svg" alt="">
-                <a href="#">Logout</a>
-            </div>
-            <div class="containerText">
+                <a href="#">Perfil</a>
+            </li>
+            <li class="containerText">
                 <img src="./images/info.svg" alt="">
-                <a href="#">Logout</a>
-            </div>
-            <div class="containerText">
+                <a href="#">Sobre nós</a>
+            </li>
+            <li class="containerText">
                 <img src="./images/logout.svg" alt="">
-                <a href="#">Logout</a>
-            </div>
-        </section>
+                <a href="#">Sair</a>
+            </li>
+        </aside>
         <section class="containerForm">
             <article class="upload">
                 <div class="showImage">
                     <img src="./images/Code editor.svg" alt="">
                 </div>
-                <button>
-                    <p>Carregar Imagem</p> <img src="./images/upload.svg" alt="Ícone do upload">
-                </button>
+                <label for="fileUpload">Carregue a imagem <img src="./images/upload.svg" alt="Ícone do upload"></label>
+                
+                <input id="fileUpload" type="file" placeholder="Carregue a sua imagem">
+                </input>
                 <div class="nameFile">
                     <p>image_projeto.png</p>
                     <img src="./images/close.svg" alt="Nome do arquvo">
@@ -55,7 +56,7 @@
                     <input class="inputBigger" id="description" type="text">
                 </fieldset>
                 <fieldset>
-                    <label for="tags">tags</label>
+                    <label for="tags">Tags</label>
                     <input id="tags" class="inputSmall" type="text">
                 </fieldset>
                 <div class="containerButtons">
